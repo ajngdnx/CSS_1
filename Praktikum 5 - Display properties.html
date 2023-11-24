@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>prak5</title>
+    <style>
+        /* Display */
+        .block-element {
+            display: block;
+            background-color: red;
+            width: 200px;
+            height: 100px;
+        }
+
+        /*Display: inline */
+        .inline-elemen {
+            display:inline-block;
+            background-color:green;
+            width: 150px;
+            height: 150px;
+        }
+
+        .inline-block-elemen {
+            display: inline-block;
+            background-color: green;
+            width: 150px;
+            height: 150px;
+        }
+
+        .flex-container {
+            display: flex;
+            background-color: yellow;
+        }
+
+        /* Display:flex */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            background-color: pink;
+        }
+    </style>
+</head>
+</html>
+<body>
+    <div class="block-element">Block elemen</div>
+
+    <span class="inline-elemen">Inline elemen</span>
+
+    <div class="inline-block-elemen"> inline block elemen</div>
+
+    <div class="flex-container">
+        <div> Flex item 1</div>
+        <div> Flex item 2</div>
+        <div> Flex item 3</div>
+    </div>
+
+    <div class="grid-container">
+        <div> Grid item 1</div>
+        <div> Grid item 2</div>
+        <div> Grid item 3</div>
+        <div> Grid item 4</div>
+    </div>
+</body>
